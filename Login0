@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Logging In</title>
+	</head>
+	<body>
+		<form name='login' target='_self' method='post' enctype='application/x-www-form-urlencoded' action='index.php'>
+      <input type='text' name='username' placeholder='Username'>
+      <input type='password' name='password' placeholder='Password'>
+      <input type='submit' name='login' value='Login'>
+    </form>
+	</body>
+</html>

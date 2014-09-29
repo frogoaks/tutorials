@@ -5,9 +5,9 @@
 	</head>
 	<body>
 		<form name='login' target='_self' method='post' enctype='application/x-www-form-urlencoded' action='index.php'>
-      <input type='text' name='username' placeholder='Username'>
-      <input type='password' name='password' placeholder='Password'>
-      <input type='submit' name='login' value='Login'>
-    </form>
+      			<input type='text' name='username' placeholder='Username'>
+      			<input type='password' name='password' placeholder='Password'>
+      			<input type='submit' name='login' value='Login'>
+    		</form>
 	</body>
 </html>

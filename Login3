@@ -1,0 +1,34 @@
+<?PHP
+  //Create the variables we need to process the form submitted
+  $username="dancinfrog";
+  $password="password1";
+  
+  if(strcmp($username.$_POST["username"])===0)
+  {
+    if(strcmp($password,$_POST["password"])===0)
+    {
+      echo "You did it! You logged in!";
+    }//End if
+    else
+    {
+      echo "You must have forgotten your password.";
+    }//End else
+  }//End if
+  else
+  {
+    echo "That username is not registered with us.";
+  }//End else
+?>
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Logging In</title>
+	</head>
+	<body>
+		<form name='login' target='_self' method='post' enctype='application/x-www-form-urlencoded' action='index.php'>
+      			<input type='text' name='username' placeholder='Username'>
+      			<input type='password' name='password' placeholder='Password'>
+      			<input type='submit' name='login' value='Login'>
+    		</form>
+	</body>
+</html>
